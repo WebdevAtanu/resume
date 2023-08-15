@@ -20,6 +20,9 @@
     height: 50%;
     margin: 35% 2%;
 }
+#intro h1{
+	font-size:20px;
+}
 #homeright{
     height:50vh;
 }
