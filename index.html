@@ -1,284 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>My Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
-
-</head>
-<body>
-<!-- navbar -->
-<div id="nav">
-	<h2>Noob.Dev</h2>
-	<ul>
-		<li class="navitem"><a href="#home">Home</a></li>
-		<li class="navitem"><a href="#about">About</a></li>
-		<li class="navitem"><a href="#work">My works</a></li>
-		<li class="navitem"><a href="#contact">Contact</a></li>
-	</ul>
-</div>
-
-<!-- Home section -->
-<section id="home">
-	<div id="homegrid">
-		<div id="homeleft">
-			<div id="intro">
-				<p>Hello sparky, this is</p>
-				<h1>ATANU MONDAL</h1>
-				<p>Welcome to my Portfolio. I'm a passionate web developing learner. I'm currently working with the technologies like <span id="element"></span></p>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" media="screen and (max-width: 1200px)" href="phone.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<!-- navbar -->
+		<div id="nav">
+			<h2>Noob.Dev</h2>
+			<ul>
+				<li class="navitem"><a href="#home">Home</a></li>
+				<li class="navitem"><a href="#about">About</a></li>
+				<li class="navitem"><a href="#work">My works</a></li>
+				<li class="navitem"><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+		<!-- Home section -->
+		<section id="home">
+			<div id="homegrid">
+				<div id="homeleft">
+					<div id="intro">
+						<p>Hello sparky, this is</p>
+						<h1>ATANU MONDAL</h1>
+						<p>Welcome to my Portfolio. I'm a passionate web developing learner. I'm currently working with the technologies like <span id="element"></span></p>
+					</div>
+					
+				</div>
+				<div id="homeright"><img src="coder.jpg"></div>
+			</div>
+			<h5>My working fields</h5>
+			<div id="homecards">
+				
+				<div class="cards"><img src="design.png"><h4>Web designing</h4><p></p></div>
+				<div class="cards"><img src="developing.png"><h4>Web developing</h4></div>
+				<div class="cards"><img src="coding.png"><h4>Frontend coding</h4></div>
+				<div class="cards"><img src="backend.png"><h4>Backend coding</h4></div>
+				<div class="cards"><img src="content.png"><h4>Content managing</h4></div>
+			</div>
+		</section>
+		<!-- about section -->
+		<section id="about">
+			<div id="aboutgrid">
+				<div id="aboutleft">
+					<h3>Technical proficiency</h3>
+					<div class="container">
+						<div class="mySlides">
+							<img src="excel.jpg">
+							<p>I'm proficient in working with excel spreadsheet.</p>
+						</div>
+						<div class="mySlides">
+							<img src="coding.jpg">
+							<p>I have Practical knowledge of programming and scripting
+							languages.</p>
+						</div>
+						<div class="mySlides">
+							<img src="framework.jpg">
+							<p>I'm familiar with the frontend libraries like JQuery,
+							Bootstrap, Tailwind CSS.</p>
+						</div>
+						<div class="mySlides">
+							<img src="database.jpg">
+							<p>I'm familiar with the backend technology such as node and have decent knowledge about database querying.</p>
+						</div>
+						<div class="mySlides">
+							<img src="wordpress.jpg">
+							<p>I'm familiar with the web content management system.</p>
+						</div>
+						<a class="prev" onclick="plusSlides(-1)">❮</a>
+						<a class="next" onclick="plusSlides(1)">❯</a>
+					</div>
+				</div>
+				<div id="aboutright">
+					<div id="education">
+						<h3>Education Timeline</h3>
+						<div class="box">
+							<div class="vertical">
+								<div class="title">Secondary</div>
+								<div class="contents">Acharya Prafulla Chandra high
+									school for boys. Salt lake,
+								Kolkata-700091</div>
+							</div>
+							<div class="vertical">
+								<div class="title">Higher Secondary</div>
+								<div class="contents">Acharya Prafulla Chandra high
+									school for boys. Salt lake,
+								Kolkata-700091</div>
+							</div>
+							<div class="vertical">
+								<div class="title">Graduation(BCA)</div>
+								<div class="contents">Graduated in Bachelor of Computer
+									Application (BCA) from
+									Indira Gandhi National
+									Open University, RC- Kolkata
+								Year-2022</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h2>My skills</h2>
+			<div id="skills">
+				<span style="--i:0;--x:-1;--y:0;">
+					<img src="word.png" title="MS word">
+				</span>
+				<span style="--i:1;--x:1;--y:0;">
+					<img src="excel.png" title="MS Excel">
+				</span>
+				<span style="--i:2;--x:0;--y:-1;">
+					<img src="powerpoint.png" title="MS Powerpoint">
+				</span>
+				<span style="--i:3;--x:0;--y:1;">
+					<img src="html.png" title="HTML">
+				</span>
+				<span style="--i:4;--x:1;--y:1;">
+					<img src="css.png" title="CSS">
+				</span>
+				<span style="--i:5;--x:-1;--y:-1;">
+					<img src="db.png" title="Databases">
+				</span>
+				<span style="--i:6;--x:0;--y:0;">
+					<img src="node.png" title="Node JS">
+				</span>
+				<span style="--i:7;--x:-1;--y:1;">
+					<img src="js.png" title="Javascript">
+				</span>
+				<span style="--i:8;--x:1;--y:-1;">
+					<img src="wp.png" title="Wordpress">
+				</span>
+			</div>
+		</section>
+		<!-- work section -->
+		<section id="work">
+			<h3>My recent works</h3>
+			<div id="workgrid">
+				<div class="workcards"><img src="background.jpg"><div class="workpara"><p>Lorem ipsum dolor sit amet <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+					<path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+				</svg></a></p></div></div>
+				<div class="workcards"><img src="background.jpg"><div class="workpara"><p>Lorem ipsum dolor sit amet <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+					<path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+				</svg></a></p></div></div>
+				<div class="workcards"><img src="background.jpg"><div class="workpara"><p>Lorem ipsum dolor sit amet <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+					<path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+				</svg></a></p></div></div>
+				<div class="workcards"><img src="background.jpg"><div class="workpara"><p>Lorem ipsum dolor sit amet <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+					<path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+				</svg></a></p></div></div>
+				<div class="workcards"><img src="background.jpg"><div class="workpara"><p>Lorem ipsum dolor sit amet <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+					<path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+				</svg></a></p></div></div>
+				<div class="workcards"><img src="background.jpg"><div class="workpara"><p>Lorem ipsum dolor sit amet <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+					<path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+				</svg></a></p></div></div>
+				<div class="workcards"><img src="background.jpg"><div class="workpara"><p>Lorem ipsum dolor sit amet <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+					<path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+				</svg></a></p></div></div>
+				<div class="workcards"><img src="background.jpg"><div class="workpara"><p>Lorem ipsum dolor sit amet <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+					<path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+				</svg></a></p></div></div>
 			</div>
 			
-		</div>
-		<div id="homeright"><img src="coder.jpg"></div>
-	</div>
-	<h5>My working fields</h5>
-	<div id="homecards">
-		
-		<div class="cards"><img src="design.png"><h4>Web designing</h4><p></p></div>
-		<div class="cards"><img src="developing.png"><h4>Web developing</h4></div>
-		<div class="cards"><img src="coding.png"><h4>Frontend coding</h4></div>
-		<div class="cards"><img src="backend.png"><h4>Backend coding</h4></div>
-		<div class="cards"><img src="content.png"><h4>Content managing</h4></div>
-	</div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="about">
-	<div id="aboutgrid">
-		<div id="aboutleft">
-			<div class="container">
-  <div class="mySlides">
-    <img src="excel.jpg">
-       <p>I'm proficient in working with excel spreadsheet.</p>
-  </div>
-  <div class="mySlides">
-    <img src="coding.jpg">
-    <p>I have Practical knowledge of programming and scripting
-languages.</p>
-  </div>
-  <div class="mySlides">
-    <img src="framework.jpg">
-    <p>I'm familiar with the frontend libraries like JQuery,
-Bootstrap, Tailwind CSS.</p>
-  </div>
-  <div class="mySlides">
-    <img src="database.jpg">
-    <p>I'm familiar with the backend technology such as node and have decent knowledge about database querying.</p>
-  </div>
-  <div class="mySlides">
-    <img src="wordpress.jpg">
-    <p>I'm familiar with the web content management system.</p>
-  </div>
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-</div>
-		</div>
-		<div id="aboutright">
-
-		<div id="education">
-			<h3>Education Timeline</h3>
-		<div class="box">
-          <div class="vertical">
-            <div class="title">Secondary</div>
-            <div class="contents">Acharya Prafulla Chandra high
-school for boys. Salt lake,
-Kolkata-700091</div>
-          </div>
-          <div class="vertical">
-            <div class="title">Higher Secondary</div>
-            <div class="contents">Acharya Prafulla Chandra high
-school for boys. Salt lake,
-Kolkata-700091</div>
-          </div>
-          <div class="vertical">
-            <div class="title">Graduation(BCA)</div>
-            <div class="contents">Graduated in Bachelor of Computer
-Application (BCA) from
-Indira Gandhi National
-Open University, RC- Kolkata
-Year-2022</div>
-          </div>
-        </div>
-		</div>
-</div>
-
-
-
-
-
-
-
-	</div>
-	<h2>My skills</h2>
-<div id="skills">
-       <span style="--i:0;--x:-1;--y:0;">
-            <a href="https://www.google.com/search?q=msword" title="MS word" target="_blank"><img src="word.png"></a>
-        </span>
-        <span style="--i:1;--x:1;--y:0;">
-          <a href="https://www.google.com/search?q=excel" title="Excel" target="_blank"><img src="excel.png"></a>
-        </span>
-        <span style="--i:2;--x:0;--y:-1;">
-         <a href="https://www.google.com/search?q=powerpoint" title="Powerpoint" target="_blank"> <img src="powerpoint.png"></a>
-        </span>
-        <span style="--i:3;--x:0;--y:1;">
-           <a href="https://www.google.com/search?q=html" title="HTML" target="_blank"><img src="html.png"></a>
-        </span>
-        <span style="--i:4;--x:1;--y:1;">
-            <a href="https://www.google.com/search?q=css" title="CSS" target="_blank"><img src="css.png"></a>
-        </span>
-        <span style="--i:5;--x:-1;--y:-1;">
-            <a href="https://www.google.com/search?q=databases" title="Databases" target="_blank"><img src="db.png"></a>
-        </span>
-        <span style="--i:6;--x:0;--y:0;">
-           <a href="https://www.google.com/search?q=nodejs" title="Node JS" target="_blank"><img src="node.png"></a>
-        </span>
-        <span style="--i:7;--x:-1;--y:1;">
-          <a href="https://www.google.com/search?q=javascript" title="Javascript" target="_blank"><img src="js.png"></a>
-        </span>
-        <span style="--i:8;--x:1;--y:-1;">
-           <a href="https://www.google.com/search?q=wordpress" title="Wordpress" target="_blank"><img src="wp.png"></a>
-        </span>
-</div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="work">
-	<h3>My recent projects</h3>
-	<div id="workgrid">
-		<div class="workcards"></div>
-		<div class="workcards"></div>
-		<div class="workcards"></div>
-		<div class="workcards"></div>
-		<div class="workcards"></div>
-		<div class="workcards"></div>
-		<div class="workcards"></div>
-		<div class="workcards"></div>
-		<div class="workcards"></div>
-		<div class="workcards"></div>
-		<div class="workcards"></div>
-		<div class="workcards"></div>
-	</div>
-	
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="contact">
-	<div id="contactgrid">
-		<div id="contactleft">
-	<ul>
-		<li>Address<li>Krishnapur Rajbanshi para, bidhannagar municipality, kolkata-700102</li></li>
-		<li></li>
-		<li></li>
-	</ul>
-	</div>
-	<div id="contactright">
-		<form id="contactform">
-			
-		</form>
-	</div>
-	</div>
-	<div id="social">
-		<ul>
-			<li class="socialicon"><a href="">Facebook</a></li>
-			<li class="socialicon"><a href="">telegram</a></li>
-			<li class="socialicon"><a href="">github</a></li>
-			<li class="socialicon"><a href="">codepen</a></li>
-			<li class="socialicon"><a href="">linkedin</a></li>
-		</ul>
-	</div>
-
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-<script src="script.js"></script>
-</body>
+		</section>
+		<section id="contact">
+			<div id="contactgrid">
+				<div id="contactleft">
+					<h3>Contact me</h3>
+					<div id="addressline">
+						<div class="cblocks" id="add"><img src="address.png">Krishnapur Rajbanshi para, bidhannagar municipality, kolkata-700102</div>
+						<div class="cblocks" id="phn"><img src="phone.png">9073106703</div>
+						<div class="cblocks" id="mail"><img src="mail.png">atanum991@gmail.com</div>
+						
+					</div>
+				</div>
+				<div id="contactright">
+					<div class="contactform">
+						<form id="myform">
+							<input type="text" id="name" placeholder="Enter your name">
+							<input type="mail" id="mail" placeholder="Enter your mail ID">
+							<textarea id="tarea" rows="5" cols="5" placeholder="Enter your message"></textarea>
+						</form>
+						<button id="btn" onclick="onsub()">Submit</button>
+					</div>
+				</div>
+			</div>
+			<div id="social">
+				<ul>
+					<li class="socialicon"><a href="" title="facebook"><img src="facebook.svg"></a></li>
+					<li class="socialicon"><a href="" title="instagram"><img src="instagram.svg"></a></li>
+					<li class="socialicon"><a href="" title="telegram"><img src="telegram.svg"></a></li>
+					<li class="socialicon"><a href="" title="linkedin"><img src="linkedin.svg"></a></li>
+					<li class="socialicon"><a href="" title="codepen"><img src="pen.svg"></a></li>
+					<li class="socialicon"><a href="" title="github"><img src="github.svg"></a></li>
+				</ul>
+			</div>
+		</section>
+		<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+		<script src="script.js"></script>
+	</body>
 </html>

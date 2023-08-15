@@ -1,0 +1,19 @@
+
+/* Navigation */
+#nav {
+    flex-direction: column;
+    height: 10vh;
+    padding-bottom: 10px;
+}
+#nav h2{
+   margin-bottom: 3px;
+}
+/* Home section */
+#homegrid{
+    grid-template-columns:100%;
+}
+#intro{
+    width:450px;
+    height: 50%;
+    margin: 25% 2%;
+}
