@@ -65,7 +65,10 @@
         margin-left: 50px;
     }
     #education .vertical {
-    margin: 40px 0;
+    margin: 60px 0;
+}
+.title{
+	width:50vw;
 }
 #work{
     margin-top: 200px;
