@@ -35,7 +35,9 @@
 #homecards {
     height: 15%;
 }
-
+.cards{
+    margin:100px 3px;
+}
 
 #aboutgrid{
     grid-template-columns:100%;
