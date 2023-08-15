@@ -12,8 +12,59 @@
 #homegrid{
     grid-template-columns:100%;
 }
+#homeleft{
+    height:50vh;
+}
 #intro{
-    width:450px;
+    max-width: 90%;
     height: 50%;
-    margin: 25% 2%;
+    margin: 35% 2%;
+}
+#homeright{
+    height:50vh;
+}
+#homeright img {
+    height: 50%;
+    width: 90%;
+    margin: 0% 2%;
+    box-shadow: 2px 2px 15px 2px white;
+    border-radius: 15px;
+    transition-duration: 1s;
+}
+
+#homecards {
+    height: 15%;
+}
+
+
+#aboutgrid{
+    grid-template-columns:100%;
+}
+#aboutleft{
+    height:35vh;
+    margin-top: 50px;
+}
+#aboutright{
+    height:50vh;
+}
+
+#about img {
+    width: 100%;
+    height: 40%;
+    border-radius: 30px;
+    }
+    #education{
+        margin-left: 50px;
+    }
+    #education .vertical {
+    margin: 70px 0;
+}
+#work{
+    margin-top: 200px;
+}
+#workgrid{
+   grid-template-columns:100%;
+   grid-template-rows: repeat(0);
+}
+.workcards{
 }
