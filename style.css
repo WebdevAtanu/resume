@@ -311,7 +311,7 @@ body {
 	position: relative;
 	width: 70px;
 	height: 70px;
-	background: #212532;
+	background: linear-gradient(180deg, rgba(195, 34, 86, 1) 17%, rgba(218, 44, 194, 1) 98%);
 	border-radius: 10px;
 	cursor: pointer;
 	display: flex;
@@ -362,9 +362,9 @@ body {
 
 #skills.active span:hover img {
 	color: #2dfc52;
-	filter: drop-shadow(0 0 10px #a64cff)
-	drop-shadow(0 0 15px #a64cff)
-	drop-shadow(0 0 15px #a64cff);
+	filter: drop-shadow(0 0 10px blue)
+	drop-shadow(0 0 15px blue)
+	drop-shadow(0 0 15px blue);
 	transform: scale3d(1.5, 1.5, 1.0);
 }
 
