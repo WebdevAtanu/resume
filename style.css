@@ -362,9 +362,6 @@ body {
 
 #skills.active span:hover img {
 	color: #2dfc52;
-	filter: drop-shadow(0 0 10px skyblue)
-	drop-shadow(0 0 15px skyblue)
-	drop-shadow(0 0 15px skyblue);
 	transform: scale3d(1.5, 1.5, 1.0);
 }
 
