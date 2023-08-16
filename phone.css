@@ -43,6 +43,9 @@
 .cards{
     margin:100px 3px;
 }
+.cards:hover {
+	transform: scale3d(2.0, 2.0, 1.0)
+}
 #about {
     height: 85vh;
 }
