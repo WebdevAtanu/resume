@@ -398,7 +398,7 @@ body {
 }
 .workcards {
 	height: 100%;
-	width: 100%;
+	width: 40%;
 	position: relative;
 	overflow: hidden;
 	border-radius: 10px;
