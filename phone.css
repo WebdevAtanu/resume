@@ -42,8 +42,6 @@
 }
 .cards{
     margin:100px 3px;
-}
-.cards{
 transition-duration:0.5s;
 }
 .cards:hover {
