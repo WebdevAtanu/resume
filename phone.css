@@ -102,10 +102,10 @@
 }
 #addressline {
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     }
     #contactleft {
-    height: 60vh;
+    height: 45vh;
 }
 #contactright {
     height: 40vh;
@@ -118,4 +118,7 @@
 }
 .cblocks:hover{
     color: #d9006c;
+}
+#social {
+    margin-top: 20%;
 }
