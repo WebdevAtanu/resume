@@ -42,10 +42,6 @@
 }
 .cards{
     margin:100px 3px;
-transition-duration:0.5s;
-}
-.cards:hover {
-	transform: scale3d(1.5, 1.5, 1.0);
 }
 #about {
     height: 85vh;
