@@ -130,6 +130,12 @@
 #add{
 	transform: scale3d(3.0, 3.0, 1.0);
 }
+#phn:hover{
+	transform: scale3d(3.0, 3.0, 1.0);
+}
+#mail:hover{
+	transform: scale3d(3.0, 3.0, 1.0);
+}
 #social {
     margin-top: 20%;
 }
