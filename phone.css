@@ -129,9 +129,11 @@
 	width: 30px;
 }
 .cblocks:hover{
-    color: #d9006c;
 	transform: scale3d(3.0, 3.0, 1.0);
 }
 #social {
     margin-top: 20%;
+}
+#btn{
+float: right;
 }

@@ -53,6 +53,8 @@ body {
 
 #nav ul {
 	display: flex;
+	font-family: 'Bangers', cursive;
+	list-style:none;
 }
 
 #nav ul li a {
@@ -143,7 +145,7 @@ body {
 
 #home h5 {
 	color: #68b312;
-	font-family: 'Yatra One', cursive;
+	font-family: 'Abril Fatface', cursive;
 	text-align: center;
 	position: relative;
 	top: -18%;
@@ -192,7 +194,7 @@ body {
 #about h2 {
 	text-align: center;
 	color: #68b312;
-	font-family: 'Yatra One', cursive;
+	font-family: 'Abril Fatface', cursive;
 }
 
 #aboutgrid {
@@ -208,7 +210,7 @@ body {
 #aboutleft h3 {
 	text-align: center;
 	color: #68b312;
-	font-family: 'Yatra One', cursive;
+	font-family: 'Abril Fatface', cursive;
 	font-size: 30px;
 }
 
@@ -264,7 +266,7 @@ body {
 
 #education h3 {
 	color: #68b312;
-	font-family: 'Yatra One', cursive;
+	font-family: 'Abril Fatface', cursive;
 	font-size: 30px;
 }
 
@@ -375,7 +377,7 @@ body {
 
 #work h3 {
 	color: #68b312;
-	font-family: 'Yatra One', cursive;
+	font-family: 'Abril Fatface', cursive;
 	font-size: 30px;
 	text-align: center;
 }
@@ -457,7 +459,7 @@ body {
 }
 
 #contactleft h3 {
-	font-family: 'Yatra One', cursive;
+	font-family: 'Abril Fatface', cursive;
 	color: #68b312;
 	text-align: center;
 	font-size: 50px;

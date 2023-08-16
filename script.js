@@ -6,9 +6,13 @@ alert(`Hey there! this page is still on development. Thanks for visiting me 🙏
   });
 
   const navigation = document.querySelector("#skills");
+  const navigation1 = document.querySelector("#about");
 
-        navigation.addEventListener("click", () => {
-            navigation.classList.toggle("active");
+  navigation.addEventListener("click", () => {
+            navigation.classList.add("active");
+        })
+        navigation1.addEventListener("dblclick", () => {
+            navigation.classList.remove("active");
         })
 
 
