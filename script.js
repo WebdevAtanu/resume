@@ -41,3 +41,6 @@ function showSlides(n) {
 function onsub(){
   alert("Not available")
 }
+document.getElementById("tag").addEventListener("click",()=>{
+  document.getElementById("tag").innerHTML="Atanu";
+})
