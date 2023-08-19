@@ -27,6 +27,9 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+window.onload(setInterval(()=>{
+  showSlides(slideIndex += 1);
+},5000));
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");

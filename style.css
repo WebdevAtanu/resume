@@ -253,7 +253,13 @@ body {
 	height: 90%;
 	border-radius: 30px;
 }
-
+.mySlides {
+	animation: fade 1s linear 1;
+}
+@keyframes fade{
+	from{opacity: 0;}
+	to{opacity:1;}
+}
 .mySlides p {
 	color: white;
 	font-family: 'Handlee', cursive;
