@@ -167,16 +167,11 @@
 #phn {
 }
 
-#phn:hover {
-    transform: scale3d(2.5, 2.5, 1.0);
-}
 
 #mail {
 }
 
-#mail:hover {
-    transform: scale3d(2.5, 2.5, 1.0);
-}
+
 
 #social {
     margin-top: 20%;
