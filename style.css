@@ -508,19 +508,18 @@ body {
 
 .contactform input,
 textarea {
-	    width: 100%;
+	       width: 100%;
     padding: 5px;
     margin: 10px auto;
     background-color: transparent;
     backdrop-filter: blur(25px);
-    border: 1px solid black;
+    border: 1px solid white;
     font-size: 20px;
     font-weight: bold;
     font-family: 'Handlee', cursive;
     border-radius: 15px;
     color: black;
-   /* box-shadow: 0px 1px 15px 0px black;*/
-	box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    box-shadow: 0px 1px 15px 0px black;
 }
 ::placeholder{
 	color:white;
