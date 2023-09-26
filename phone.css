@@ -134,7 +134,10 @@
     width: 95%;
     height: 30vh;
 }
-
+.cblocks img { 
+         height: 20px; 
+         width: 20px; 
+ }
 #contact {
     margin-top: 30%;
 }
