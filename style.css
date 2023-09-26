@@ -486,18 +486,31 @@ legend {
 	margin: 15% auto;
 }
 
-.contactform input,
-textarea {
-	width: 100%;
-	padding: 5px;
-	margin: 1px auto;
+#myform {
 	background-color: transparent;
 	backdrop-filter: blur(25px);
-	border: 0.5px solid white;
+	box-shadow: 0px 1px 15px 0px black;
+}
+
+.contactform input,
+textarea {
+	width: 97%;
+	padding: 5px;
 	font-size: 20px;
+	background-color: transparent;
 	font-weight: bold;
 	color: black;
-	box-shadow: 0px 1px 15px 0px black;
+	outline: none;
+	border: none;
+	font-family: 'Croissant One', cursive;
+}
+
+textarea {
+	resize: none;
+}
+
+.contactform input {
+	border-bottom: 1px solid white;
 }
 
 ::placeholder {
@@ -516,15 +529,19 @@ textarea {
 	width: 25%;
 	border-radius: 5px;
 	height: 35px;
+	margin-top: 1%;
 	transition-duration: 0.5s;
 	font-size: 20px;
 	font-weight: bold;
 	background-color: rgba(255, 255, 255, 0.6);
 	backdrop-filter: blur(15px);
+	font-family: 'Croissant One', cursive;
 }
 
 #btn:hover {
 	cursor: pointer;
+	background-color: transparent;
+	color: white;
 }
 
 #btn:active {
