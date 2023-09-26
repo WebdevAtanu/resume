@@ -13,6 +13,7 @@ html {
 
 body {
 	background-color: var(--back);
+	font-family: 'Croissant One', cursive;
 }
 
 /*navbar*/
@@ -22,7 +23,6 @@ body {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	font-family: 'Courgette', cursive;
 	position: fixed;
 	z-index: 20;
 }
@@ -41,7 +41,7 @@ body {
 
 #nav h2 {
 	color: white;
-	height: 40px;
+	height: 60px;
 	background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
@@ -53,7 +53,6 @@ body {
 
 #nav ul {
 	display: flex;
-	font-family: 'Bangers', cursive;
 	list-style: none;
 }
 
@@ -71,6 +70,19 @@ body {
 	color: #a64cff;
 }
 
+fieldset {
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
+
+legend {
+	color: #8eff0c;
+	margin-left: 15%;
+	font-size: x-large;
+	text-shadow: -2px -2px 1px blue;
+}
+
 /*home section*/
 #home {
 	height: 100vh;
@@ -84,13 +96,12 @@ body {
 }
 
 #homeleft {
-	height: 80vh;
+	height: 60vh;
 	box-sizing: border-box;
 }
 
 #intro {
-	width: 100%;
-	height: 30%;
+	width: 80%;
 	margin: 13% 15%;
 	height: 50%;
 	padding: 5px;
@@ -100,13 +111,11 @@ body {
 
 #intro p {
 	color: white;
-	font-family: 'Handlee', cursive;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 }
 
 #intro h1 {
 	color: #a64cff;
-	font-family: 'Yatra One', cursive;
 	font-size: 3rem;
 	text-shadow: 1px 1px 2px blue;
 }
@@ -116,7 +125,7 @@ body {
 }
 
 #homeright {
-	height: 80vh;
+	height: 60vh;
 	box-sizing: border-box;
 }
 
@@ -124,7 +133,7 @@ body {
 	height: 50%;
 	width: 50%;
 	margin: 13% 25%;
-	    box-shadow: 0px 0px 10px 0px #353546;
+	box-shadow: 0px 0px 10px 0px #353546;
 	border-radius: 15px;
 	transition-duration: 1s;
 }
@@ -141,12 +150,10 @@ body {
 	width: 100%;
 	margin: auto;
 	position: relative;
-	top: -18%;
 }
 
 #home h5 {
 	color: #68b312;
-	font-family: 'Abril Fatface', cursive;
 	text-align: center;
 	position: relative;
 	top: -18%;
@@ -178,7 +185,6 @@ body {
 .cards h4 {
 	font-size: 10%;
 	text-align: center;
-	font-family: 'Handlee', cursive;
 }
 
 .cards:hover {
@@ -193,13 +199,6 @@ body {
 	width: 100%;
 }
 
-#about h2 {
-	text-align: center;
-	color: #68b312;
-	font-family: 'Abril Fatface', cursive;
-	text-shadow: -2px -2px 1px blue;
-}
-
 #aboutgrid {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
@@ -207,14 +206,6 @@ body {
 
 #aboutleft {
 	height: 60vh;
-}
-
-#aboutleft h3 {
-	text-align: center;
-	color: #68b312;
-	font-family: 'Abril Fatface', cursive;
-	font-size: 30px;
-	text-shadow: -2px -2px 1px blue;
 }
 
 .container {
@@ -258,28 +249,29 @@ body {
 	height: 90%;
 	border-radius: 30px;
 }
+
 .mySlides {
 	animation: fade 1s linear 1;
 }
-@keyframes fade{
-	from{opacity: 0;}
-	to{opacity:1;}
+
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+
 }
+
 .mySlides p {
 	color: white;
-	font-family: 'Handlee', cursive;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 #aboutright {
 	height: 60vh;
-}
-
-#education h3 {
-	color: #68b312;
-	font-family: 'Abril Fatface', cursive;
-	font-size: 30px;
-	text-shadow: -2px -2px 1px blue;
 }
 
 #education .box {
@@ -305,8 +297,7 @@ body {
 	position: relative;
 	top: -10px;
 	left: 45px;
-	font-size: 30px;
-	font-family: 'Handlee', cursive;
+	font-size: 25px;
 	color: white;
 	width: 30vw;
 }
@@ -316,9 +307,8 @@ body {
 	top: -10px;
 	left: 90px;
 	width: 250px;
-	font-size: 15px;
+	font-size: 12px;
 	color: #99e6ff;
-	font-family: 'Handlee', cursive;
 }
 
 #skills {
@@ -386,14 +376,6 @@ body {
 	width: 100%;
 }
 
-#work h3 {
-	color: #68b312;
-	font-family: 'Abril Fatface', cursive;
-	font-size: 30px;
-	text-align: center;
-	text-shadow: -2px -2px 1px blue;
-}
-
 #workgrid {
 	width: 80%;
 	height: 100vh;
@@ -440,14 +422,14 @@ body {
 .workcards:hover .workpara {
 	height: 100%;
 }
-.workcards:hover img{
-	    transform: scale3d(1.2, 1.2,1);
+
+.workcards:hover img {
+	transform: scale3d(1.2, 1.2, 1);
 }
 
 .workpara p {
 	color: white;
 	font-size: 20px;
-	font-family: 'Yatra One', cursive;
 	padding: 30px;
 }
 
@@ -476,28 +458,19 @@ body {
 	height: 90vh;
 }
 
-#contactleft h3 {
-	font-family: 'Abril Fatface', cursive;
-	color: black;
-	text-align: center;
-	font-size: 50px;
-}
-
 #addressline {
-	      width: 75%;
-    height: 25vh;
-    box-sizing: border-box;
-    margin: 27% auto;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0px 1px 15px 0px black;
-    border-radius: 30px;
-    padding: 20px;
-    color: white;
-    font-size: 17px;
+	width: 75%;
+	height: 30vh;
+	box-sizing: border-box;
+	margin: 27% auto;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0px 1px 15px 0px black;
+	padding: 20px;
+	color: white;
+	font-size: 17px;
 	backdrop-filter: blur(25px);
 }
-
 
 .cblocks img {
 	height: 30px;
@@ -515,21 +488,20 @@ body {
 
 .contactform input,
 textarea {
-	       width: 100%;
-    padding: 5px;
-    margin: -1px auto;
-    background-color: transparent;
-    backdrop-filter: blur(25px);
-    border: 1px solid white;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Handlee', cursive;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 0px 1px 15px 0px black;
+	width: 100%;
+	padding: 5px;
+	margin: 1px auto;
+	background-color: transparent;
+	backdrop-filter: blur(25px);
+	border: 0.5px solid white;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	box-shadow: 0px 1px 15px 0px black;
 }
-::placeholder{
-	color:white;
+
+::placeholder {
+	color: white;
 }
 
 .contactform textarea:focus {
@@ -546,7 +518,6 @@ textarea {
 	height: 35px;
 	transition-duration: 0.5s;
 	font-size: 20px;
-	font-family: 'Handlee', cursive;
 	font-weight: bold;
 	background-color: rgba(255, 255, 255, 0.6);
 	backdrop-filter: blur(15px);
@@ -583,4 +554,3 @@ textarea {
 	filter: invert(100%);
 	margin: 20px;
 }
-
