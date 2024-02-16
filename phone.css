@@ -5,3 +5,6 @@
 #intro {
     width: 90%;
 }
+.swiper [class^=swiper-button] {
+    display:none;
+}
