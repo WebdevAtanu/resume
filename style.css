@@ -66,8 +66,8 @@ body {
 	height: 85vh;
 
 	& iframe {
-		width: 90%;
-		aspect-ratio: 1/0.7;
+		width: 95%;
+		aspect-ratio: 1/0.8;
 		border: 1px solid;
 	}
 
