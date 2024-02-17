@@ -19,3 +19,8 @@
     width: 100%;
     aspect-ratio: 1/1;
 }
+.card {
+        
+        aspect-ratio: 1/0.5;
+margin:auto;
+}
