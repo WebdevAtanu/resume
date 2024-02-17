@@ -78,7 +78,9 @@ h3 {
 	}
 
 }
-
+.mycards{
+ height:100vh;
+}
 .card {
 	width: 95%;
 	aspect-ratio: 1/0.7;
