@@ -84,6 +84,7 @@ h3 {
 	& img {
 		width: 5rem;
 		aspect-ratio: 1;
+  margin-bottom: 5px;
 	}
 
 	& p {
