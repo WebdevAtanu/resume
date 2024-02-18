@@ -50,6 +50,7 @@ body {
 #intro ul li>a {
 	margin-left: 10px;
 	text-decoration: none;
+	color:#e50000f0;
 
 	&:hover {
 		cursor: pointer;
@@ -57,38 +58,28 @@ body {
 	}
 
 }
-
-.my_prog>p {
-	font-family: "Kode Mono", monospace;
-}
-
 h3 {
 	color: #657cfb;
 	font-family: "Honk", system-ui;
 	font-weight: 100;
 }
+.my_prog>p {
+	font-family: "Kode Mono", monospace;
+}
 
-.custom_contain {
-	padding-top: 2rem;
 
-	& iframe {
+.container iframe {
 		width: 100%;
 		aspect-ratio: 1/0.3;
 		border: 1px solid;
-	}
-
 }
-.card {
-	width: 95%;
-	aspect-ratio: 1/0.7;
-	background: #faf9ff;
-
-	& img {
-		height: 50%;
-		width: 50%;
-		margin: auto;
+.my_card{
+	width:100%;
+	box-shadow: 0px 0px 3px 0px #8080805c;
+	& img{
+		width:5rem;
+		aspect-ratio:1;
 	}
-
 }
 
 .card-body {
