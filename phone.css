@@ -23,6 +23,7 @@
 }
 
 .my_card {
-    width: 80%;
+    width: 50%;
+    aspect-ratio:1;
     margin: auto;
 }
