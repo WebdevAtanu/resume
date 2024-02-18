@@ -12,10 +12,17 @@
 
 .custom_contain {
     width: 85%;
+    height: 90%;
     margin: auto;
+
+    & iframe {
+        width: 100%;
+        aspect-ratio: 1/1;
+    }
+
 }
 
-.custom_contain iframe {
-    width: 100%;
-    aspect-ratio: 1/1;
+.my_card {
+    width: 80%;
+    margin: auto;
 }
