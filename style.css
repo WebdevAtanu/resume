@@ -57,12 +57,12 @@ body {
 
 }
 
-#cvlink {
+.link {
 	color: black;
 }
 
 .btn:hover {
-	#cvlink {
+	.link {
 		color: white;
 	}
 
