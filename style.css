@@ -46,11 +46,13 @@ body {
 	font-size: 4.5rem;
 	font-family: "Protest Riot", sans-serif;
 }
-#intro p{
+
+#intro p {
 	font-family: "Dancing Script", cursive;
-	font-size:1.3rem;
+	font-size: 1.3rem;
 }
-#intro button{
+
+#intro button {
 	font-family: "Protest Riot", sans-serif;
 }
 
@@ -73,9 +75,11 @@ h2 {
 	font-family: "Anta", sans-serif;
 	font-weight: 100;
 }
-.my_prog{
+
+.my_prog {
 	box-shadow: 0px 0px 5px 0px #8080805c;
 }
+
 .my_prog>p {
 	font-family: "Kode Mono", monospace;
 }
@@ -115,13 +119,15 @@ h2 {
 
 }
 
-.codepen_info h4{
+.codepen_info h4 {
 	font-family: "Protest Riot", sans-serif;
 }
-.codepen_info p{
+
+.codepen_info p {
 	font-family: "Dancing Script", cursive;
-	font-size:1.3rem;
+	font-size: 1.3rem;
 }
+
 #footer ul li>a {
 	margin-left: 10px;
 	text-decoration: none;
@@ -129,14 +135,16 @@ h2 {
 
 	&:hover {
 		cursor: pointer;
-		color:#087efbed;
+		color: #087efbed;
 	}
 
 }
-#footer h1{
+
+#footer h1 {
 	font-family: "Protest Riot", sans-serif;
 }
-#footer p{
+
+#footer p {
 	font-family: "Dancing Script", cursive;
-	font-size:1.3rem;
+	font-size: 1.3rem;
 }
