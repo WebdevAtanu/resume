@@ -19,13 +19,3 @@ const swiper = new Swiper('.swiper', {
         el: '.swiper-scrollbar',
     },
 });
-
-const codeswiper = new Swiper('.codeswiper', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-});
