@@ -49,9 +49,14 @@ h2 {
 }
 
 /*intro---------------------------------*/
+#intro {
+	transform: rotate(330deg);
+}
+
 #intro h1 {
 	font-size: 4.5rem;
 	font-family: "Protest Riot", sans-serif;
+	color: #003140;
 }
 
 #intro p {
@@ -72,6 +77,10 @@ h2 {
 		color: white;
 	}
 
+}
+
+#introgif {
+	width: 90%;
 }
 
 /* my cards--------------------------*/
