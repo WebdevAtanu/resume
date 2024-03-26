@@ -50,7 +50,8 @@ h2 {
 
 /*intro---------------------------------*/
 #intro {
-	transform: rotate(330deg);
+	transform: rotate(340deg);
+	text-align: center;
 }
 
 #intro h1 {
@@ -66,6 +67,14 @@ h2 {
 
 #intro button {
 	font-family: "Dancing Script", cursive;
+	width: 50%;
+	border: 1px solid #003140;
+	transition: all 0.2s;
+
+	&:hover {
+		background: #003140;
+	}
+
 }
 
 .link {
@@ -90,19 +99,40 @@ h2 {
 	box-shadow: 0px 0px 5px 0px #8080805c;
 	border-radius: 10px;
 	box-sizing: border-box;
+	transition: all 0.2s;
+
+	&:hover {
+		box-shadow: 0px 0px 0px 1px black;
+
+		img {
+			filter: grayscale(0);
+		}
+
+		h6 {
+			color: #003140;
+		}
+
+		p {
+			color: #1096ad;
+		}
+
+	}
 
 	& img {
 		width: 4rem;
 		aspect-ratio: 1;
 		margin-bottom: 5px;
+		filter: grayscale(1);
+		transition: all 0.2s;
 	}
 
 	& p {
 		text-align: center;
+		color: grey;
 	}
 
 	& h6 {
-		color: #1096ad;
+		color: grey;
 	}
 
 }
@@ -110,6 +140,12 @@ h2 {
 /*progress---------------------------------------------*/
 .my_prog {
 	box-shadow: 0px 0px 5px 0px #8080805c;
+	height: 85vh;
+
+	.progress-bar {
+		background: repeating-linear-gradient(40deg, #0474fff0, #2196F3 35px) !important;
+	}
+
 }
 
 .my_prog>p {
@@ -129,13 +165,15 @@ h2 {
 	border: 1px solid;
 }
 
-/*codepen block---------------------------*/
-.codepen_info h4 {
-	font-family: "Protest Riot", sans-serif;
-}
+.custom_contain button {
+	width: 100%;
+	border: 1px solid #003140;
+	transition: all 0.2s;
 
-.codepen_info p {
-	font-size: 1.3rem;
+	&:hover {
+		background: #003140;
+	}
+
 }
 
 /*footer------------------------------*/
