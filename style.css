@@ -73,6 +73,7 @@ h2 {
 
 	&:hover {
 		background: #003140;
+		color: white;
 	}
 
 }
@@ -96,43 +97,26 @@ h2 {
 .my_card {
 	width: 100%;
 	height: 100%;
-	box-shadow: 0px 0px 5px 0px #8080805c;
 	border-radius: 10px;
 	box-sizing: border-box;
-	transition: all 0.2s;
-
-	&:hover {
-		box-shadow: 0px 0px 0px 1px black;
-
-		img {
-			filter: grayscale(0);
-		}
-
-		h6 {
-			color: #003140;
-		}
-
-		p {
-			color: #1096ad;
-		}
-
-	}
+	box-shadow: 0px 0px 0px 1px black;
 
 	& img {
 		width: 4rem;
 		aspect-ratio: 1;
 		margin-bottom: 5px;
-		filter: grayscale(1);
-		transition: all 0.2s;
 	}
 
 	& p {
 		text-align: center;
-		color: grey;
+		color: #21525b;
+		font-family: "Dancing Script", cursive;
 	}
 
 	& h6 {
-		color: grey;
+		color: #003140;
+		font-family: "Protest Riot", sans-serif;
+		font-size: 1.2rem !important;
 	}
 
 }
@@ -140,7 +124,7 @@ h2 {
 /*progress---------------------------------------------*/
 .my_prog {
 	box-shadow: 0px 0px 5px 0px #8080805c;
-	height: 85vh;
+	width: 90%;
 
 	.progress-bar {
 		background: repeating-linear-gradient(40deg, #0474fff0, #2196F3 35px) !important;
@@ -172,6 +156,7 @@ h2 {
 
 	&:hover {
 		background: #003140;
+		color: white;
 	}
 
 }
@@ -196,4 +181,9 @@ h2 {
 #footer p {
 	font-family: "Dancing Script", cursive;
 	font-size: 1.3rem;
+}
+
+.bi::before {
+	transform: scale(3);
+	margin: 1.5rem;
 }
