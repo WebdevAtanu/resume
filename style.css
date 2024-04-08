@@ -50,7 +50,6 @@ h2 {
 
 /*intro---------------------------------*/
 #intro {
-	transform: rotate(340deg);
 	text-align: center;
 }
 
@@ -58,6 +57,7 @@ h2 {
 	font-size: 4.5rem;
 	font-family: "Protest Riot", sans-serif;
 	color: #003140;
+	text-shadow: 2px 2px 0px #0000004d;
 }
 
 #intro p {
@@ -79,7 +79,7 @@ h2 {
 }
 
 .link {
-	color: black;
+	color: #003140;
 }
 
 .btn:hover {
@@ -123,7 +123,7 @@ h2 {
 
 /*progress---------------------------------------------*/
 .my_prog {
-	box-shadow: 0px 0px 5px 0px #8080805c;
+	border: 0.5px solid #80808042;
 	width: 90%;
 
 	.progress-bar {
@@ -176,14 +176,17 @@ h2 {
 
 #footer h1 {
 	font-family: "Protest Riot", sans-serif;
+	color:#003140;
 }
 
 #footer p {
 	font-family: "Dancing Script", cursive;
 	font-size: 1.3rem;
+	color:#003140;
 }
 
 .bi::before {
 	transform: scale(3);
 	margin: 1.5rem;
+	color:#003140;
 }
