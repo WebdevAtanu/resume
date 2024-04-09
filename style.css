@@ -52,7 +52,7 @@ h2 {
 	height: 100%;
 	box-sizing: border-box;
 	border: 0.1px solid black;
-	text-align:center;
+	text-align: center;
 
 	& img {
 		width: 4rem;
