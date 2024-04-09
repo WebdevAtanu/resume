@@ -1,29 +1,23 @@
+#intro {
+    text-align: center;
+}
+
 #intro h1 {
     font-size: calc(2rem + 1.5vw);
 }
 
-#intro {
-    width: 90%;
-}
-
-.swiper [class^=swiper-button] {
-    display: none;
-}
-
 .custom_contain {
-    width: 85%;
-    height: 90%;
-    margin: auto;
+    height: 100vh;
 
     & iframe {
         width: 100%;
-        aspect-ratio: 1/1.3;
+        aspect-ratio: 1;
     }
 
 }
 
 .my_card {
-    width: 80%;
+    width: 100%;
     aspect-ratio: 1/0.5;
     margin: auto;
 }
