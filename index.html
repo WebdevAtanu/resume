@@ -5,20 +5,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Digital CV</title>
 		<link rel="stylesheet" href="Components/bootstrap.min.css">
-		<link rel="stylesheet" href="Components/owl-carousel/owl.carousel.css">
-		<!-- <link rel="stylesheet" href="Components/owl-carousel/owl.theme.css"> -->
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" media="screen and (max-width: 480px)" href="phone.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<!-- intro section ------------------------------------------------------------------------------------------->
-		<nav class="navbar navbar-expand-lg bg-transparent">
+		<nav class="navbar navbar-expand-lg bg-transparent fixed-top">
 			<div class="container-fluid">
 				<img src="pics/logo.png" alt="" id="logo">
 				<button id="dark_btn" onclick="mode()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-moon-stars" viewBox="0 0 16 16">
@@ -26,11 +23,11 @@
 					<path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/>
 				</svg></button>
 			</div>
-		</nav>
+		</nav>
 		
 		<!-- intro section ------------------------------------------------------------------------------------------->
 		<section>
-			<div class="container">
+			<div class="container mt-5">
 				<div class="row">
 					<div class="col-md-6 d-flex align-items-center">
 						<div class="container g-0 mt-3" id="intro">
@@ -41,7 +38,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 d-flex align-items-center">
-						<div class="container g-0 d-flex justify-content-center">
+						<div class="container g-0 d-flex justify-content-center mt-1">
 							<img src="pics/coder.gif" alt="" id="introgif">
 						</div>
 					</div>
@@ -52,7 +49,7 @@
 		<!-- content section ------------------------------------------------------------------------------------------->
 		<section>
 			<h2 class="text-center mt-3">Things I do</h2>
-			<div class="container mt-5 d-flex align-items-center justify-content-center">
+			<div class="container mt-2 d-flex align-items-center justify-content-center">
 				<div class="row g-3">
 					<div class="col-md-3">
 						<div class="d-flex justify-content-center align-items-center flex-column p-1 my_card">
@@ -85,139 +82,151 @@
 				</div>
 			</div>
 		</section>
-	
+		
 		<!-- skill section ------------------------------------------------------------------------------------------->
 		<section>
-			<h2 class="text-center mt-3">Me and my proficiency</h2>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="container mt-5">
-						<div class="my_prog p-2">
-							<span><img src="pics/tech/exc.png" alt="" title="Excel"></span>
-							<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-								<div class="progress-bar" style="width: 80%">80%</div>
-							</div>
-							
-							<span><img src="pics/tech/web.png" alt="" title="Html & CSS"></span>
-							<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-								<div class="progress-bar" style="width: 90%">90%</div>
-							</div>
-							
-							
-							<span><img src="pics/tech/js.png" alt="" title="Javascript"></span>
-							<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-								<div class="progress-bar" style="width: 65%">65%</div>
-							</div>
-							<span><img src="pics/tech/bs.png" alt="" title="Bootstrap"></span>
-							<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-								<div class="progress-bar" style="width: 80%">80%</div>
-							</div>
-							
-							<span><img src="pics/tech/jq.png" alt="" title="Jquery"></span>
-							<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-								<div class="progress-bar" style="width: 75%">75%</div>
-							</div>
-							
-							<span><img src="pics/tech/php.png" alt="" title="PHP"></span>
-							<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-								<div class="progress-bar" style="width: 50%">50%</div>
-							</div>
-							
-							
-							<span><img src="pics/tech/wp.png" alt="" title="Wordpress"></span>
-							<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-								<div class="progress-bar" style="width: 45%">45%</div>
-							</div>
-							<span><img src="pics/tech/node.png" alt="" title="Wordpress"></span>
-							<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-								<div class="progress-bar" style="width: 40%">40%</div>
-							</div>
-							
-							
-							<span><img src="pics/tech/db.png" alt="" title="Databases"></span>
-							<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-								<div class="progress-bar" style="width: 65%">65%</div>
+			<h2 class="text-center mt-3">Proficiency & About</h2>
+			<div class="container-flex">
+				<div class="row g-0">
+					<div class="col-md-6">
+						<div class="container mt-2">
+							<div class="my_prog p-2">
+								<span><img src="pics/tech/exc.png" alt="" title="Excel"></span>
+								<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar" style="width: 80%">80%</div>
+								</div>
+								
+								<span><img src="pics/tech/web.png" alt="" title="Html & CSS"></span>
+								<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar" style="width: 90%">90%</div>
+								</div>
+								
+								
+								<span><img src="pics/tech/js.png" alt="" title="Javascript"></span>
+								<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar" style="width: 65%">65%</div>
+								</div>
+								<span><img src="pics/tech/bs.png" alt="" title="Bootstrap"></span>
+								<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar" style="width: 80%">80%</div>
+								</div>
+								
+								<span><img src="pics/tech/jq.png" alt="" title="Jquery"></span>
+								<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar" style="width: 75%">75%</div>
+								</div>
+								
+								<span><img src="pics/tech/php.png" alt="" title="PHP"></span>
+								<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar" style="width: 50%">50%</div>
+								</div>
+								
+								
+								<span><img src="pics/tech/wp.png" alt="" title="Wordpress"></span>
+								<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar" style="width: 45%">45%</div>
+								</div>
+								<span><img src="pics/tech/node.png" alt="" title="Wordpress"></span>
+								<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar" style="width: 40%">40%</div>
+								</div>
+								
+								
+								<span><img src="pics/tech/db.png" alt="" title="Databases"></span>
+								<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar" style="width: 65%">65%</div>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="container">
-     <p>🌐 A passionate web developer with a focus on creating seamless user experiences and innovative solutions.</p>
-     <p>🧑‍💻 Specializing in front-end development, with a passion for creating user-friendly, responsive, scalable and visually appealing web applications. </p>
-     <p>💡Strong problem-solving skills and a keen eye for detail. Always eager to collaborate and learn new technologies.</p>
-     <p>🚀 Proficient in HTML5, CSS3, JavaScript, Bootstrap, jQuery, Node.js, React.js, SQL, and MongoDB. Also exploring the glossy techs like GSAP, P5.js, Spline.</p>
-     <p>📈 Constantly learning and adapting to new technologies to stay ahead in the ever-evolving digital landscape.</p>
-     <div>
+					<div class="col-md-6">
+						<div class="container mt-2" id="aboutMe">
+							<p>🌐 A passionate web developer with a focus on creating seamless user experiences and innovative solutions.</p>
+							<p>🧑‍💻 Specializing in front-end development, with a passion for creating user-friendly, responsive, scalable and visually appealing web applications. </p>
+							<p>💡Strong problem-solving skills and a keen eye for detail. Always eager to collaborate and learn new technologies.</p>
+							<p>🚀 Proficient in HTML5, CSS3, JavaScript, Bootstrap, jQuery, Node.js, React.js, SQL, and MongoDB. Also exploring the glossy techs like GSAP, P5.js, Spline.</p>
+							<p>📈 Constantly learning and adapting to new technologies to stay ahead in the ever-evolving digital landscape.</p>
+						</div>
+					</div>
 				</div>
 			</div>
-			
 		</section>
-	
+		
 		<!-- owl carousel ------------------------------------------------------------------------------------------->
 		<section>
-			<h2 class="text-center mt-5">Demonstrations</h2>
-			<div class="container">
-				<div class="owl-carousel">
-					<!--site------------------------------------------------------------------------------------------->
-					<div class="container mt-3 pt-2 custom_contain">
-						<div>
-							<iframe src="https://rkdemosite.netlify.app/" frameborder="0"></iframe>
-							<p>I create this landing page from a company's website in which I gave an interview recently. I used Bootstrap, swiper.js and AOS in it.</p>
-						</div>
-						<div class="text-center">
-							<a href="https://rkdemosite.netlify.app/" target="_blank" class="text-decoration-none link"><button class="btn">Live Demo</button></a>
-						</div>
-					</div>
-					<!--site------------------------------------------------------------------------------------------->
-					<div class="container mt-3 pt-2 custom_contain">
-						<div>
-							<iframe src="https://myshop-beta.netlify.app/" frameborder="0"></iframe>
-							<p>I randomly created this page for my father's shop. It is a static page now but i will try to make it dynamic some day.</p>
-						</div>
-						<div class="text-center">
-							<a href="https://myshop-beta.netlify.app/" target="_blank" class="text-decoration-none link"><button class="btn">Live Demo</button></a>
+			<h2 class="text-center mt-3">Demonstrations</h2>
+			<div class="container-fluid">
+				<div class="row g-2">
+					<div class="col-md-3">
+						<!--site------------------------------------------------------------------------------------------->
+						<div class="container mt-3 pt-2 custom_contain">
+							<div>
+								<iframe src="https://rkdemosite.netlify.app/" frameborder="0"></iframe>
+								<p>I create this landing page from a company's website in which I gave an interview recently. I used Bootstrap, swiper.js and AOS in it.</p>
+							</div>
+							<div class="text-center">
+								<a href="https://rkdemosite.netlify.app/" target="_blank" class="text-decoration-none link"><button class="btn">Live Demo</button></a>
+							</div>
 						</div>
 					</div>
-					<!--site------------------------------------------------------------------------------------------->
-					<div class="container mt-3 pt-2 custom_contain">
-						<div>
-							<iframe src="https://bengalibook.netlify.app/" frameborder="0"></iframe>
-							<p>It is a digial e-book reader webpage. Here user can read or download bengali books from various authors. I also created a selection list of authors.</p>
-						</div>
-						<div class="text-center">
-							<a href="https://bengalibook.netlify.app/" target="_blank" class="text-decoration-none link"><button class="btn">Live Demo</button></a>
-						</div>
-					</div>
-					<!--site------------------------------------------------------------------------------------------->
-					<div class="container mt-3 pt-2 custom_contain">
-						<div>
-							<iframe src="https://customtemplate.netlify.app/" frameborder="0"></iframe>
-							<p>An template browser where user can download the sorce code. Note- All the codes should include bootstrap cdn to work.</p>
-						</div>
-						<div class="text-center">
-							<a href="https://customtemplate.netlify.app/" target="_blank" class="text-decoration-none link"><button class="btn">Live Demo</button></a>
+					<div class="col-md-3">
+						<!--site------------------------------------------------------------------------------------------->
+						<div class="container mt-3 pt-2 custom_contain">
+							<div>
+								<iframe src="https://myshop-beta.netlify.app/" frameborder="0"></iframe>
+								<p>I randomly created this page for my father's shop. It is a static page now but i will try to make it dynamic some day.</p>
+							</div>
+							<div class="text-center">
+								<a href="https://myshop-beta.netlify.app/" target="_blank" class="text-decoration-none link"><button class="btn">Live Demo</button></a>
+							</div>
 						</div>
 					</div>
-					<!--site------------------------------------------------------------------------------------------->
-					<div class="container mt-3 pt-2 custom_contain">
-						<div>
-							<iframe src="https://vkohli18.netlify.app/" frameborder="0"></iframe>
-							<p>A tribute page for the Indian cricketer Virat Kohli.</p>
-						</div>
-						<div class="text-center">
-							<a href="https://vkohli18.netlify.app/" target="_blank" class="text-decoration-none link"><button class="btn">Live Demo</button></a>
+					<div class="col-md-3">
+						<!--site------------------------------------------------------------------------------------------->
+						<div class="container mt-3 pt-2 custom_contain">
+							<div>
+								<iframe src="https://bengalibook.netlify.app/" frameborder="0"></iframe>
+								<p>It is a digial e-book reader webpage. Here user can read or download bengali books from various authors. I also created a selection list of authors.</p>
+							</div>
+							<div class="text-center">
+								<a href="https://bengalibook.netlify.app/" target="_blank" class="text-decoration-none link"><button class="btn">Live Demo</button></a>
+							</div>
 						</div>
 					</div>
+					<div class="col-md-3">
+						<!--site------------------------------------------------------------------------------------------->
+						<div class="container mt-3 pt-2 custom_contain">
+							<div>
+								<iframe src="https://customtemplate.netlify.app/" frameborder="0"></iframe>
+								<p>An template browser where user can download the sorce code. Note- All the codes should include bootstrap cdn to work.</p>
+							</div>
+							<div class="text-center">
+								<a href="https://customtemplate.netlify.app/" target="_blank" class="text-decoration-none link"><button class="btn">Live Demo</button></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<!--site------------------------------------------------------------------------------------------->
+						<div class="container mt-3 pt-2 custom_contain">
+							<div>
+								<iframe src="https://vkohli18.netlify.app/" frameborder="0"></iframe>
+								<p>A tribute page for the Indian cricketer Virat Kohli.</p>
+							</div>
+							<div class="text-center">
+								<a href="https://vkohli18.netlify.app/" target="_blank" class="text-decoration-none link"><button class="btn">Live Demo</button></a>
+							</div>
+						</div>
+					</div>
+					
 				</div>
 			</div>
 		</section>
-	
+		
 		<!-- footer section ------------------------------------------------------------------------------------------->
 		<section>
 			<div class="container-fluid mt-5 mb-0 text-center" id="footer">
 				<p class="mb-0">Made with</p>
-				<h1><span class="text-danger">❤️</span> and Bootstrap</h1>
+				<h1><span class="text-danger">❤</span> and Bootstrap</h1>
 				<ul class="list-unstyled d-flex justify-content-center">
 					<li><a href="https://github.com/WebdevAtanu" target="_blank"><i class="bi bi-github"></i></a></li>
 					<li><a href="https://www.instagram.com/noob_web_dev?igsh=MXIzcTA4M2FqanZqMw==" target="_blank"><i class="bi bi-instagram"></i></a></li>
@@ -231,8 +240,6 @@
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 		<script src="Components/bootstrap.min.js"></script>
-		<script src="Components/jquery-3.6.4.min.js"></script>
-		<script src="Components/owl-carousel/owl.carousel.min.js"></script>
 		<script src="script.js"></script>
 	</body>
 </html>

@@ -7,8 +7,6 @@
 }
 
 .custom_contain {
-    height: 80vh;
-
     & iframe {
         width: 100%;
         aspect-ratio: 1;
