@@ -167,6 +167,7 @@ h2 {
 	width: 100%;
 	aspect-ratio: 1;
 	border: 0.5px solid;
+  overflow: hidden;
 }
 
 .custom_contain button {
