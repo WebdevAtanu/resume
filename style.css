@@ -65,21 +65,22 @@ h2 {
 /*intro---------------------------------*/
 #intro {
 	& h1 {
-		font-size: 4.5rem;
-		font-family: "Protest Riot", sans-serif;
+		font-size: 2.5rem;
+		font-family: "Unbounded", sans-serif;
 		color: #003140;
 	}
 
 	& p {
-		font-family: "Protest Riot", sans-serif;
+		font-family: "Unbounded", sans-serif;
 		font-size: 0.8rem;
 	}
 
 	& button {
-		font-family: "Protest Riot", sans-serif;
+		font-family: "Unbounded", sans-serif;
 		border: 1px dashed #003140;
 		transition: all 0.2s;
-		width: 35%;
+		width: 45%;
+		font-size: 0.7rem;
 
 		&:hover {
 			background: #003140;
@@ -111,13 +112,13 @@ h2 {
 
 	& p {
 		color: #21525b;
-		font-family: "Protest Riot", sans-serif;
+		font-family: "Unbounded", sans-serif;
 		font-size: 0.8rem;
 	}
 
 	& h6 {
 		color: #003140;
-		font-family: "Protest Riot", sans-serif;
+		font-family: "Unbounded", sans-serif;
 		font-size: 1.2rem !important;
 	}
 
@@ -146,7 +147,7 @@ h2 {
 
 #aboutMe {
 	p {
-		font-family: "Protest Riot", sans-serif;
+		font-family: "Unbounded", sans-serif;
 		font-size: 1.1rem;
 	}
 
@@ -161,9 +162,14 @@ h2 {
 	flex-direction: column;
 	justify-content: space-between;
 	padding: 1rem;
+
+	& p {
+		font-family: "Unbounded", sans-serif;
+	}
+
 }
 
-.container iframe {
+.custom_contain iframe {
 	width: 100%;
 	aspect-ratio: 1;
 	border: 0.5px solid;
@@ -174,6 +180,7 @@ h2 {
 	width: 100%;
 	border: 1px solid #003140;
 	transition: all 0.2s;
+	font-family: "Unbounded", sans-serif;
 
 	&:hover {
 		background: #003140;
@@ -184,13 +191,18 @@ h2 {
 
 /*codepen------------------------------*/
 .codepenWork {
-	border: 1px solid black;
-	padding: 1rem;
+	border: 0.1px solid grey;
+	padding: 0.5rem;
 	width: 100%;
-	aspect-ratio: 1 / 0.5;
+	aspect-ratio: 1;
+	font-family: "Unbounded", sans-serif;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 
-	img {
-		width: 1rem;
+	& img {
+		width: 1rem !important;
 		aspect-ratio: 1;
 	}
 
@@ -211,7 +223,7 @@ h2 {
 	}
 
 	& h1 {
-		font-family: "Protest Riot", sans-serif;
+		font-family: "Unbounded", sans-serif;
 		color: #003140;
 	}
 
