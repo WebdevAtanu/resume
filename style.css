@@ -202,7 +202,7 @@ h2 {
 	justify-content: space-between;
 
 	& img {
-		width: 1rem !important;
+		width: 2rem !important;
 		aspect-ratio: 1;
 	}
 
