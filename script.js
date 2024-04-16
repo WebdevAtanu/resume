@@ -1,3 +1,14 @@
+function mode() {
+    let docBody = document.body;
+    docBody.classList.toggle("dark_mode");
+};
+$("#about_me").click(() => {
+    $("#aboutMe").slideDown(500);
+    // $("#aboutMe").style.display = 'block';
+})
+$("#closeAbout").click(() => {
+    $("#aboutMe").slideUp(500);
+})
 $(document).ready(function() {
     $(".owl-carousel").owlCarousel({
         // items:2,
@@ -25,8 +36,3 @@ $(document).ready(function() {
     });
 
 });
-
-function mode() {
-    let docBody = document.body;
-    docBody.classList.toggle("dark_mode");
-};

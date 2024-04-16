@@ -18,8 +18,8 @@
 	</head>
 	<body>
 		<!-- intro section ------------------------------------------------------------------------------------------->
-		<nav class="navbar navbar-expand-lg bg-transparent fixed-top">
-			<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg bg-transparent">
+			<div class="container">
 				<img src="pics/logo.png" alt="" id="logo">
 				<button id="dark_btn" onclick="mode()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-moon-stars" viewBox="0 0 16 16">
 					<path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286"/>
@@ -30,20 +30,17 @@
 		
 		<!-- intro section ------------------------------------------------------------------------------------------->
 		<section>
-			<div class="container mt-5">
-				<div class="row">
-					<div class="col-md-6 d-flex align-items-center">
-						<div class="container g-0 mt-3" id="intro">
-							<p class="mb-0">Hey there, I'm</p>
-							<h1 class="m-0">ATANU MONDAL</h1>
-							<p>Front-end designer & Developer</p>
-							<a href="https://drive.google.com/file/d/1ldoppFPNE8Bn1und9rb59vKhTbXn5gjC/view?usp=drive_link" class="text-decoration-none link" download target="_blank"><button class="btn">View CV</button></a>
-						</div>
-					</div>
-					<div class="col-md-6 d-flex align-items-center">
-						<div class="container g-0 d-flex justify-content-center mt-1">
-							<img src="pics/coder.gif" alt="" id="introgif">
-						</div>
+			<div class="container">
+				<div class="container g-0 mt-3" id="intro">
+					<p class="mb-0">Hey there, I'm</p>
+					<h1 class="m-0">ATANU MONDAL</h1>
+					<p>Front-end designer & Developer</p>
+					<button class="btn" id="about_me">About Me</button>
+					<div class="social float-end d-flex flex-column">
+						<a href=""><i class="bi bi-linkedin"></i></a>
+						<a href=""><i class="bi bi-github"></i></a>
+						<a href=""><i class="bi bi-instagram"></i></a>
+						<a href=""><i class="bi bi-youtube"></i></a>
 					</div>
 				</div>
 			</div>
@@ -51,7 +48,7 @@
 		
 		<!-- content section ------------------------------------------------------------------------------------------->
 		<section>
-			<h2 class="text-center mt-3">Things I do</h2>
+			<h2 class="text-center">Things I do</h2>
 			<div class="container mt-2 d-flex align-items-center justify-content-center">
 				<div class="row g-3">
 					<div class="col-md-3">
@@ -88,255 +85,141 @@
 		
 		<!-- skill section ------------------------------------------------------------------------------------------->
 		<section>
-			<h2 class="text-center mt-3">Proficiency & About</h2>
-			<div class="container">
-				<div class="row g-0">
-					<div class="col-md-6">
-						<div class="container mt-2 mb-1">
-							<div class="my_prog p-2">
-								<span><img src="pics/tech/exc.png" alt="" title="Excel"></span>
-								<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-									<div class="progress-bar" style="width: 80%">80%</div>
-								</div>
-								
-								<span><img src="pics/tech/web.png" alt="" title="Html & CSS"></span>
-								<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-									<div class="progress-bar" style="width: 90%">90%</div>
-								</div>
-								
-								
-								<span><img src="pics/tech/js.png" alt="" title="Javascript"></span>
-								<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-									<div class="progress-bar" style="width: 65%">65%</div>
-								</div>
-								<span><img src="pics/tech/bs.png" alt="" title="Bootstrap"></span>
-								<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-									<div class="progress-bar" style="width: 80%">80%</div>
-								</div>
-								
-								<span><img src="pics/tech/jq.png" alt="" title="Jquery"></span>
-								<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-									<div class="progress-bar" style="width: 75%">75%</div>
-								</div>
-								
-								<span><img src="pics/tech/php.png" alt="" title="PHP"></span>
-								<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-									<div class="progress-bar" style="width: 50%">50%</div>
-								</div>
-								
-								
-								<span><img src="pics/tech/wp.png" alt="" title="Wordpress"></span>
-								<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-									<div class="progress-bar" style="width: 45%">45%</div>
-								</div>
-								<span><img src="pics/tech/node.png" alt="" title="Wordpress"></span>
-								<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-									<div class="progress-bar" style="width: 40%">40%</div>
-								</div>
-								
-								
-								<span><img src="pics/tech/db.png" alt="" title="Databases"></span>
-								<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-									<div class="progress-bar" style="width: 65%">65%</div>
-								</div>
+			<div class="container-fluid g-0" id="aboutMe">
+				<div class="container-fluid d-flex justify-content-end">
+					<button class="" id="closeAbout"><i class="bi bi-x-square"></i></button>
+				</div>
+				
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="container-fluid" id="abouts">
+								<h3>About Me</h3>
+								<p>A passionate web developer with a focus on creating seamless user experiences and innovative solutions. Specializing in front-end development, with a passion for creating user-friendly, responsive, scalable and visually appealing web applications. Constantly learning and adapting to new technologies to stay ahead in the ever-evolving digital landscape.</p>
+								<p><span class="techStack">#CSS</span><span class="techStack">#Javascript</span><span class="techStack">#Bootstrap</span><span class="techStack">#GSAP</span><span class="techStack">#jQuery</span></p>
+								<p><span class="techStack">#Node.js</span><span class="techStack">#Express.js</span><span class="techStack">#React.js</span><span class="techStack">#EJS</span></p>
+								<p><span class="techStack">#SQL</span><span class="techStack">#MongoDB</span><span class="techStack">#Git</span><span class="techStack">#GitHub</span></p>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="container" id="aboutMe">
-							<p>🌐 A passionate web developer with a focus on creating seamless user experiences and innovative solutions.</p>
-							<p>🧑‍💻 Specializing in front-end development, with a passion for creating user-friendly, responsive, scalable and visually appealing web applications. </p>
-							<p>💡 Strong problem-solving skills and a keen eye for detail. Always eager to collaborate and learn new technologies.</p>
-							<p>🚀 Proficient in HTML5, CSS3, JavaScript, Bootstrap, jQuery, Node.js, React.js, SQL, and MongoDB. Also exploring the glossy techs like GSAP, P5.js, Spline.</p>
-							<p>📈 Constantly learning and adapting to new technologies to stay ahead in the ever-evolving digital landscape.</p>
+						<div class="col-md-6">
+							<div class="container-fluid h-100 d-flex justify-content-center align-items-center">
+								<img src="pics/card.jpg" alt="" id="me">
+							</div>
+							
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		
-		<!-- owl carousel ------------------------------------------------------------------------------------------->
-		<section>
-			<h2 class="text-center mt-3">Demonstrations</h2>
-			<div class="container">
-				<div class="row g-2">
-					<div class="col-md-4">
-						<!--site------------------------------------------------------------------------------------------->
-						<div class="container mt-3 pt-2 custom_contain">
-							<div>
-								<iframe src="https://rkdemosite.netlify.app/" frameborder="0" scrolling="no"></iframe>
-								<p>I create this landing page from a company's website in which I gave an interview recently. I used Bootstrap, swiper.js and AOS in it.</p>
-							</div>
-							<div class="text-center">
-								<a href="https://rkdemosite.netlify.app/" target="_blank" class="text-decoration-none link"><button class="btn">Live Demo</button></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<!--site------------------------------------------------------------------------------------------->
-						<div class="container mt-3 pt-2 custom_contain">
-							<div>
-								<iframe src="https://myshop-beta.netlify.app/" frameborder="0" scrolling="no"></iframe>
-								<p>I randomly created this page for my father's shop. It is a static page now but i will try to make it dynamic some day.</p>
-							</div>
-							<div class="text-center">
-								<a href="https://myshop-beta.netlify.app/" target="_blank" class="text-decoration-none link"><button class="btn">Live Demo</button></a>
+				
+			</section>
+			
+			<!-- owl carousel ------------------------------------------------------------------------------------------->
+			<section>
+				<h2 class="text-center mt-3">Demonstrations</h2>
+				
+			</section>
+			<!--codepen------------------------------------------------------------------------------------------->
+			<section>
+				<h2 class="text-center mt-4">Codepen</h2>
+				<div class="container mt-2">
+					<div class="owl-carousel">
+						<div class="p-2">
+							<div class="codepenWork">
+								<div>
+									<h5>Maa Durga</h5>
+									<p>3D cube gallery of goddess Durga.</p>
+								</div>
+								<a href="https://codepen.io/AmatureDev/pen/gOEqeLv"><img src="pics/codepen.png" alt=""></a>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-4">
-						<!--site------------------------------------------------------------------------------------------->
-						<div class="container mt-3 pt-2 custom_contain">
-							<div>
-								<iframe src="https://bengalibook.netlify.app/" frameborder="0" scrolling="no"></iframe>
-								<p>It is a digial e-book reader webpage. Here user can read or download bengali books from various authors. I also created a selection list of authors.</p>
-							</div>
-							<div class="text-center">
-								<a href="https://bengalibook.netlify.app/" target="_blank" class="text-decoration-none link"><button class="btn">Live Demo</button></a>
+						<div class="p-2">
+							<div class="codepenWork">
+								<div>
+									<h5>PUBG</h5>
+									<p>An weapon showcase from the game PUBG.</p>
+								</div>
+								<a href="https://codepen.io/AmatureDev/pen/yLGgOrm"><img src="pics/codepen.png" alt=""></a>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-4">
-						<!--site------------------------------------------------------------------------------------------->
-						<div class="container mt-3 pt-2 custom_contain">
-							<div>
-								<iframe src="https://customtemplate.netlify.app/" frameborder="0" scrolling="no"></iframe>
-								<p>An template browser where user can download the sorce code. Note- All the codes should include bootstrap cdn to work.</p>
-							</div>
-							<div class="text-center">
-								<a href="https://customtemplate.netlify.app/" target="_blank" class="text-decoration-none link"><button class="btn">Live Demo</button></a>
+						<div class="p-2">
+							<div class="codepenWork">
+								<div>
+									<h5>Dictionary</h5>
+									<p>English meaning dictionary.</p>
+								</div>
+								<a href="https://codepen.io/AmatureDev/pen/poqjGPe"><img src="pics/codepen.png" alt=""></a>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-4">
-						<!--site------------------------------------------------------------------------------------------->
-						<div class="container mt-3 pt-2 custom_contain">
-							<div>
-								<iframe src="https://vkohli18.netlify.app/" frameborder="0" scrolling="no"></iframe>
-								<p>A tribute page for the Indian cricketer Virat Kohli.</p>
-							</div>
-							<div class="text-center">
-								<a href="https://vkohli18.netlify.app/" target="_blank" class="text-decoration-none link"><button class="btn">Live Demo</button></a>
+						<div class="p-2">
+							<div class="codepenWork">
+								<div>
+									<h5>ShonkuPedia</h5>
+									<p>A wiki page for prof. Shonku from the comics.</p>
+								</div>
+								<a href="https://codepen.io/AmatureDev/pen/bGOgPNm"><img src="pics/codepen.png" alt=""></a>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-4">
-						<!--site------------------------------------------------------------------------------------------->
-						<div class="container mt-3 pt-2 custom_contain">
-							<div>
-								<iframe src="https://mini-js-game.netlify.app/" frameborder="0" scrolling="no"></iframe>
-								<p>Small games created with JavaScript.</p>
-							</div>
-							<div class="text-center">
-								<a href="https://mini-js-game.netlify.app/" target="_blank" class="text-decoration-none link"><button class="btn">Live Demo</button></a>
+						<div class="p-2">
+							<div class="codepenWork">
+								<div>
+									<h5>Hackerman</h5>
+									<p>Fake hacking for pranking.</p>
+								</div>
+								<a href="https://codepen.io/AmatureDev/pen/ZEVEgyJ"><img src="pics/codepen.png" alt=""></a>
 							</div>
 						</div>
-					</div>
-					
-				</div>
-			</div>
-		</section>
-		<!--codepen------------------------------------------------------------------------------------------->
-		<section>
-			<h2 class="text-center mt-4">Codepen</h2>
-			<div class="container mt-2">
-				<div class="owl-carousel">
-					<div class="p-2">
-						<div class="codepenWork">
-							<div>
-								<h5>Maa Durga</h5>
-								<p>3D cube gallery of goddess Durga.</p>
+						<div class="p-2">
+							<div class="codepenWork">
+								<div>
+									<h5>Supe Info</h5>
+									<p>Get all the information about superheroes from comics.</p>
+								</div>
+								<a href="https://codepen.io/AmatureDev/pen/RwEwodj"><img src="pics/codepen.png" alt=""></a>
 							</div>
-							<a href="https://codepen.io/AmatureDev/pen/gOEqeLv"><img src="pics/codepen.png" alt=""></a>
 						</div>
-					</div>
-					<div class="p-2">
-						<div class="codepenWork">
-							<div>
-								<h5>PUBG</h5>
-								<p>An weapon showcase from the game PUBG.</p>
+						<div class="p-2">
+							<div class="codepenWork">
+								<div>
+									<h5>Get Jokes</h5>
+									<p>An ultimate API for getting jokes.</p>
+								</div>
+								<a href="https://codepen.io/AmatureDev/pen/XWyweGV"><img src="pics/codepen.png" alt=""></a>
 							</div>
-							<a href="https://codepen.io/AmatureDev/pen/yLGgOrm"><img src="pics/codepen.png" alt=""></a>
 						</div>
-					</div>
-					<div class="p-2">
-						<div class="codepenWork">
-							<div>
-								<h5>Dictionary</h5>
-								<p>English meaning dictionary.</p>
+						<div class="p-2">
+							<div class="codepenWork">
+								<div>
+									<h5>Harry potter</h5>
+									<p>Spells and their consequences from Harry Potter comics.</p>
+								</div>
+								<a href="https://codepen.io/AmatureDev/pen/LYMLRqr"><img src="pics/codepen.png" alt=""></a>
 							</div>
-							<a href="https://codepen.io/AmatureDev/pen/poqjGPe"><img src="pics/codepen.png" alt=""></a>
-						</div>
-					</div>
-					<div class="p-2">
-						<div class="codepenWork">
-							<div>
-								<h5>ShonkuPedia</h5>
-								<p>A wiki page for prof. Shonku from the comics.</p>
-							</div>
-							<a href="https://codepen.io/AmatureDev/pen/bGOgPNm"><img src="pics/codepen.png" alt=""></a>
-						</div>
-					</div>
-					<div class="p-2">
-						<div class="codepenWork">
-							<div>
-								<h5>Hackerman</h5>
-								<p>Fake hacking for pranking.</p>
-							</div>
-							<a href="https://codepen.io/AmatureDev/pen/ZEVEgyJ"><img src="pics/codepen.png" alt=""></a>
-						</div>
-					</div>
-					<div class="p-2">
-						<div class="codepenWork">
-							<div>
-								<h5>Supe Info</h5>
-								<p>Get all the information about superheroes from comics.</p>
-							</div>
-							<a href="https://codepen.io/AmatureDev/pen/RwEwodj"><img src="pics/codepen.png" alt=""></a>
-						</div>
-					</div>
-					<div class="p-2">
-						<div class="codepenWork">
-							<div>
-								<h5>Get Jokes</h5>
-								<p>An ultimate API for getting jokes.</p>
-							</div>
-							<a href="https://codepen.io/AmatureDev/pen/XWyweGV"><img src="pics/codepen.png" alt=""></a>
-						</div>
-					</div>
-					<div class="p-2">
-						<div class="codepenWork">
-							<div>
-								<h5>Harry potter</h5>
-								<p>Spells and their consequences from Harry Potter comics.</p>
-							</div>
-							<a href="https://codepen.io/AmatureDev/pen/LYMLRqr"><img src="pics/codepen.png" alt=""></a>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		
-		<!-- footer section ------------------------------------------------------------------------------------------->
-		<section>
-			<div class="container-fluid mt-5 mb-0 text-center" id="footer">
-				<p class="mb-0">Made with</p>
-				<h1><span class="text-danger">❤</span> and Bootstrap</h1>
-				<ul class="list-unstyled d-flex justify-content-center">
-					<li><a href="https://github.com/WebdevAtanu" target="_blank"><i class="bi bi-github"></i></a></li>
-					<li><a href="https://www.instagram.com/noob_web_dev?igsh=MXIzcTA4M2FqanZqMw==" target="_blank"><i class="bi bi-instagram"></i></a></li>
-					<li><a href="https://atanum929.wixsite.com/noobdev" target="_blank"><i class="bi bi-newspaper"></i></a></li>
-					<li><a href="https://codepen.io/AmatureDev" target="_blank"><i class="bi bi-code-square"></i></a></li>
-				</ul>
-			</div>
-		</section>
-		
-		<!-- scripts ------------------------------------------------------------------------------------------->
-		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-		<script src="Components/bootstrap.min.js"></script>
-		<script src="Components/jquery-3.6.4.min.js"></script>
-		<script src="Components/owl-carousel/owl.carousel.min.js"></script>
-		<script src="script.js"></script>
-	</body>
-</html>
+			</section>
+			
+			<!-- footer section ------------------------------------------------------------------------------------------->
+			<section>
+				<div class="container-fluid mt-5 mb-0 text-center" id="footer">
+					<p class="mb-0">Made with</p>
+					<h1><span class="text-danger">❤</span></h1>
+					<p class="text-muted small">Atanu Mondal © 2024</p>
+					<ul class="list-unstyled d-flex justify-content-center">
+						<li><a href="" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+						<li><a href="https://github.com/WebdevAtanu" target="_blank"><i class="bi bi-github"></i></a></li>
+						<li><a href="https://www.instagram.com/noob_web_dev?igsh=MXIzcTA4M2FqanZqMw==" target="_blank"><i class="bi bi-instagram"></i></a></li>
+						<li><a href="https://atanum929.wixsite.com/noobdev" target="_blank"><i class="bi bi-newspaper"></i></a></li>
+						<li><a href="https://codepen.io/AmatureDev" target="_blank"><i class="bi bi-code-square"></i></a></li>
+					</ul>
+				</div>
+			</section>
+			
+			<!-- scripts ------------------------------------------------------------------------------------------->
+			<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+			<script src="Components/bootstrap.min.js"></script>
+			<script src="Components/jquery-3.6.4.min.js"></script>
+			<script src="Components/owl-carousel/owl.carousel.min.js"></script>
+			<script src="script.js"></script>
+		</body>
+	</html>

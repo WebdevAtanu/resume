@@ -10,51 +10,66 @@ h2 {
 	font-family: "Anta", sans-serif;
 	font-weight: 100;
 	padding: 0.5rem;
+	color: black;
 }
 
+/*dark mode----------------------------*/
 .dark_mode {
-	background: #1c1536 !important;
+	background: black !important;
 
 	h1,
 	p,
+	h2,
+	h5,
 	h6,
 	h3 {
-		color: #12abd9 !important;
+		color: white !important;
 	}
 
-	button {
+	#intro {
+		background: url(pics/night.gif) !important;
+		background-repeat: no-repeat !important;
+		background-repeat: no-repeat !important;
+		background-position: top !important;
+	}
+
+	#intro button {
 		background: white !important;
-	}
+		border: 1px solid white !important;
 
-	& a:hover {
-		button {
-			color: #12abd9 !important;
+		&:hover {
+			background: black !important;
 		}
 
 	}
 
-	h2 {
-		color: white;
+	#aboutMe {
+		background: #1b2231;
+
+		& .bi::before {
+			color: white;
+		}
+
 	}
 
 	#dark_btn svg {
-		background: #1c1536 !important;
+		background: black !important;
 		color: yellow;
 	}
 
 	.bi::before {
-		color: #03A9F4;
+		color: white;
+	}
+
+	.my_card {
+		border: 0.1px solid white;
 	}
 
 }
 
 /*navbar---------------------------------*/
-.navbar {
-	backdrop-filter: blur(10px);
-}
-
 #logo {
-	width: 10%;
+	width: 5%;
 }
 
 #dark_btn {
@@ -64,10 +79,16 @@ h2 {
 
 /*intro---------------------------------*/
 #intro {
+	height: 100vh;
+	background: url(pics/morning.gif);
+	background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	background-position: top;
+
 	& h1 {
-		font-size: 2.5rem;
+		font-size: 3.5rem;
 		font-family: "Unbounded", sans-serif;
-		color: #003140;
+		color: black;
 	}
 
 	& p {
@@ -77,14 +98,22 @@ h2 {
 
 	& button {
 		font-family: "Unbounded", sans-serif;
-		border: 1px dashed #003140;
+		border: 1px solid black;
 		transition: all 0.2s;
-		width: 45%;
 		font-size: 0.7rem;
 
 		&:hover {
-			background: #003140;
+			background: black;
 			color: white;
+		}
+
+	}
+
+	& a {
+		transition: all 0.3s;
+
+		&:hover {
+			transform: scale(1.2);
 		}
 
 	}
@@ -117,40 +146,51 @@ h2 {
 	}
 
 	& h6 {
-		color: #003140;
+		color: black;
 		font-family: "Unbounded", sans-serif;
 		font-size: 1.2rem !important;
 	}
 
 }
 
-/*progress---------------------------------------------*/
-.my_prog {
-	border: 0.1px solid black;
-	width: 100%;
+/*about me---------------------------------------------*/
+#aboutMe {
+	top: 0;
+	background: white;
+	box-sizing: border-box;
+	height: 100%;
+	padding: 1rem;
+	position: fixed;
+	z-index: 99;
+	display: none;
 
-	.progress-bar {
-		background: repeating-linear-gradient(40deg, #0474fff0, #2196F3 35px) !important;
-	}
-
-	& p {
-		font-family: "Kode Mono", monospace;
-	}
-
-	& img {
-		height: 1.5rem;
-		width: 1.5rem;
-		margin: 5px;
+	& .bi::before {
+		transform: scale(1.2);
+		color: black;
 	}
 
 }
 
-#aboutMe {
-	p {
-		font-family: "Unbounded", sans-serif;
-		font-size: 1.1rem;
-	}
+#abouts {
+	font-family: "Unbounded", sans-serif;
+	text-align: justify;
+}
 
+#closeAbout {
+	background: transparent;
+	border: none;
+}
+
+.techStack {
+	border: 0.5px solid grey;
+	border-radius: 1rem;
+	padding: 0.3rem;
+	margin: 0.1rem;
+	font-size: 0.8rem;
+}
+
+#me {
+	width: 85%;
 }
 
 /*iframe--------------------------------------*/
@@ -178,12 +218,12 @@ h2 {
 
 .custom_contain button {
 	width: 100%;
-	border: 1px solid #003140;
+	border: 1px solid black;
 	transition: all 0.2s;
 	font-family: "Unbounded", sans-serif;
 
 	&:hover {
-		background: #003140;
+		background: black;
 		color: white;
 	}
 
@@ -214,29 +254,19 @@ h2 {
 		margin-left: 10px;
 		text-decoration: none;
 		color: black;
-
-		&:hover {
-			cursor: pointer;
-			color: #087efbed;
-		}
-
+		cursor: pointer;
 	}
 
-	& h1 {
-		font-family: "Unbounded", sans-serif;
-		color: #003140;
-	}
-
-	& p {
-		font-family: "Dancing Script", cursive;
-		font-size: 1.3rem;
-		color: #003140;
+	& h1,
+	p {
+		color: black;
+		font-family: "Anta", sans-serif;
 	}
 
 }
 
 .bi::before {
-	transform: scale(3);
-	margin: 1.5rem;
-	color: #003140;
+	transform: scale(2);
+	margin: 1rem;
+	color: black;
 }
