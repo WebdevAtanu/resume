@@ -9,6 +9,32 @@ h2 {
 	padding: 0.5rem;
 	color: black;
 }
+#overlay{
+	position:fixed;
+	left:0;
+	top:0;
+	background:white;
+	width:100vw;
+	height:100vh;
+	z-index: 998;
+	animation:goner 2s linear forwards 3s; 
+	#wel{
+		display:flex;
+		justify-content:center;
+		img{
+			width:50%;
+		}
+	}
+}
+@keyframes goner {
+	from{
+		opacity:1;
+	}
+	to{
+		opacity:0;
+		display:none;
+	}
+}
 
 /*dark mode----------------------------*/
 .dark_mode {
