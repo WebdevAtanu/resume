@@ -9,31 +9,39 @@ h2 {
 	padding: 0.5rem;
 	color: black;
 }
-#overlay{
-	position:fixed;
-	left:0;
-	top:0;
-	background:white;
-	width:100vw;
-	height:100vh;
+
+#overlay {
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: white;
+	width: 100vw;
+	height: 100vh;
 	z-index: 998;
-	animation:goner 2s linear forwards 3s; 
-	#wel{
-		display:flex;
-		justify-content:center;
-		img{
-			width:50%;
+	animation: goner 2s linear forwards 3s;
+
+	#wel {
+		display: flex;
+		justify-content: center;
+
+		img {
+			width: 50%;
 		}
+
 	}
+
 }
+
 @keyframes goner {
-	from{
-		opacity:1;
+	from {
+		opacity: 1;
 	}
-	to{
-		opacity:0;
-		display:none;
+
+	to {
+		opacity: 0;
+		display: none;
 	}
+
 }
 
 /*dark mode----------------------------*/
@@ -72,6 +80,19 @@ h2 {
 
 		& .bi::before {
 			color: white;
+		}
+
+	}
+
+	#viewcv {
+		a button {
+			background: white !important;
+			border: 1px solid white !important;
+
+			&:hover {
+				background: #1b2231 !important;
+			}
+
 		}
 
 	}
@@ -218,6 +239,23 @@ h2 {
 	padding: 0.3rem;
 	margin: 0.1rem;
 	font-size: 0.8rem;
+}
+
+#viewcv {
+	a button {
+		font-family: "Unbounded", sans-serif;
+		border: 1px solid black;
+		transition: all 0.2s;
+		font-size: 0.7rem;
+		width: 50%;
+
+		&:hover {
+			background: black;
+			color: white;
+		}
+
+	}
+
 }
 
 #me {
