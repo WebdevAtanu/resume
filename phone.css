@@ -28,3 +28,10 @@
 .codepenWork {
     aspect-ratio: 1/0.5;
 }
+
+.siteImg {
+    img {
+        width: 100%;
+    }
+
+}
