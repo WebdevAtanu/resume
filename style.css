@@ -234,13 +234,13 @@ hr {
 	}
 	ul{
 			list-style-type:square;
+			padding-left:0 !important;
 		}
 
 }
 
 #abouts {
 	font-family: "Unbounded", sans-serif;
-	text-align: justify;
 }
 
 #closeAbout {
