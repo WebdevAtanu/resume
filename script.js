@@ -3,15 +3,15 @@ function mode() {
     docBody.classList.toggle("dark_mode");
 };
 $("#about_me").click(() => {
-    $("#aboutMe").slideDown(900);
-    // $("#aboutMe").style.display = 'block';
     let audio = new Audio("./tone/tone1.mp3");
     audio.play();
+    $("#aboutMe").slideDown(900);
+    // $("#aboutMe").style.display = 'block';
 })
 $("#closeAbout").click(() => {
-    $("#aboutMe").slideUp(900);
     let audio = new Audio("./tone/tone2.mp3");
     audio.play();
+    $("#aboutMe").slideUp(900);
 })
 $(document).ready(function() {
     $(".owl-carousel").owlCarousel({
